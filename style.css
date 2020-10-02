@@ -1,4 +1,12 @@
-p {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif
+}
+; 
+/* p {
     background-color: blueviolet;
 
-}
+} */

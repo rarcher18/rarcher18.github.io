@@ -26,3 +26,7 @@
     top: 0;
     border-bottom: 4px 
 }
+
+#navbar li a:hover {
+    background-color: rgba(62, 166, 226, 0.911);
+}

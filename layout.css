@@ -20,3 +20,47 @@ box-sizing: border-box;
     justify-content: right;
     padding: 50px;
 }
+.background {
+    display: flex;
+    background-size: 1000vh;
+}
+
+.wedding-setup {
+    display: grid;
+    align-content: left;
+    max-width: auto;
+    
+}
+
+.project-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: cadetblue;
+}
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.github-icon {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.gmail-icon {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}

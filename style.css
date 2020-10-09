@@ -9,8 +9,9 @@
     /* background-color: rgba(40, 158, 24, 0.555); */
 }
 
-body {
-    background-image: url("img\background-img.jpg");
+.body {
+    background-image: url(../img\background-img.jpg);
+    /* background-repeat: no-repeat; */
 }
 
 .container {
@@ -25,6 +26,7 @@ body {
 .text-primary {
     color: rgb(8, 37, 65);
 }
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -33,10 +35,8 @@ body {
     position: sticky;
     top: 0;
     border-bottom: 6px solid;
-
-    
-    
 }
+
 .navbar ul {
     display: flex;
     justify-content: space-between;
@@ -45,6 +45,7 @@ body {
     
     width: 100%;
 }
+
 .navbar ul a {
     text-decoration: none;
 }
@@ -52,15 +53,17 @@ body {
 .navbar li a:hover {
     background-color: rgba(202, 183, 11, 0.219);
 }
-img {
+
+.wedding-setup {
+    border-radius: 25px;
+}
+
+.bacon {
     border-radius: 25px;
     max-height: 550px;
     /* width: 500px; */
 }
 
-.wedding-setup {
-    display: grid;
-}
 .bio {
     color: rgb(68, 0, 255);
 }

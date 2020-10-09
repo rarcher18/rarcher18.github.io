@@ -14,8 +14,9 @@ box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-self: center;
-
 }
-
-
-
+.bio {
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+}

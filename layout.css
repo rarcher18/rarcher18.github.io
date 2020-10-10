@@ -17,9 +17,16 @@ box-sizing: border-box;
 }
 .bio {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     padding: 50px;
 }
+
+.listed-skills {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px    
+}
+
 .background {
     display: flex;
     background-size: 1000vh;
@@ -37,13 +44,14 @@ box-sizing: border-box;
     justify-content: center;
     margin-top: 40px;
     font-size: 40px;
-    color: cadetblue;
+    color: rgb(54, 77, 211);
 }
 .project-links {
     display: flex;
     justify-content: space-between;
     margin: 15px;
 }
+
 
 .contact-heading {
     display: flex;

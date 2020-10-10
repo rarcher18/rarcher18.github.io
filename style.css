@@ -37,6 +37,12 @@
     border-bottom: 6px solid;
 }
 
+.bacon {
+    border-radius: 25px;
+    max-height: 550px;
+    /* width: 500px; */
+}
+
 .navbar ul {
     display: flex;
     justify-content: space-between;
@@ -55,17 +61,21 @@
 }
 
 .wedding-setup {
-    border-radius: 25px;
-}
-
-.bacon {
-    border-radius: 25px;
-    max-height: 550px;
-    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    border-radius: 200px;
 }
 
 .bio {
+    display: flex;
+    justify-content: end;
     color: rgb(68, 0, 255);
+}
+
+.listed-skills {
+    font-size: 20px;
+    color: rgb(71, 102, 160);
 }
 
 .github-icon {

@@ -9,9 +9,11 @@
     /* background-color: rgba(40, 158, 24, 0.555); */
 }
 
-.body {
-    background-image: url(../img\background-img.jpg);
-    /* background-repeat: no-repeat; */
+.home {
+    background-image: url(../img/animated-gif.gif);
+    background-size: cover;
+    opacity: 100%;
+    
 }
 
 .container {
@@ -37,10 +39,13 @@
     border-bottom: 6px solid;
 }
 
-.bacon {
+.bacon-image {
+    display: flex;
+    justify-content: center;
     border-radius: 25px;
+    align-items: stretch;
     max-height: 550px;
-    /* width: 500px; */
+   
 }
 
 .navbar ul {
@@ -59,25 +64,26 @@
 .navbar li a:hover {
     background-color: rgba(202, 183, 11, 0.219);
 }
-
+.bio {
+    color: rgb(255, 0, 106);
+}
 .wedding-setup {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
     margin-left: 3px;
     border-radius: 200px;
 }
 
-.bio {
-    display: flex;
-    justify-content: end;
-    color: rgb(68, 0, 255);
-}
-
 .listed-skills {
     font-size: 20px;
-    color: rgb(71, 102, 160);
+    color: rgb(231, 18, 89);
 }
 
 .github-icon {
-    opacity: 15%;
+    opacity: 35%;
+}
+
+.gmail-icon{
+    opacity: 50%;
 }

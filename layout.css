@@ -61,14 +61,19 @@ box-sizing: border-box;
     color: cadetblue;
 }
 
-.github-icon {
+.contact-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .github-icon {
     display: flex;
     justify-content: center;
-    margin-left: auto;
+    margin-left: 0px;
 }
 
 .gmail-icon {
     display: flex;
     justify-content: center;
     margin-right: auto;
-}
+} */

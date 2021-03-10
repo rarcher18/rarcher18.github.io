@@ -15,16 +15,21 @@ box-sizing: border-box;
     justify-content: center;
     align-self: center;
 }
+
 .bio {
-    display: flex;
-    justify-content: flex-end;
-    padding: 50px;
+    vertical-align: left;
+    /* margin: 10px; */
+    font-size: 40px;
+    color: rgb(255, 0, 106);
 }
+
+/* height: calc(100vh - 50px); */
 
 .listed-skills {
     display: flex;
     justify-content: flex-end;
-    padding: 20px    
+    font-size: 40px;
+    color: rgb(255, 255, 255);    
 }
 
 .background {
@@ -32,25 +37,27 @@ box-sizing: border-box;
     background-size: 1000vh;
 }
 
-.wedding-setup {
-    display: grid;
-    align-content: left;
-    max-width: auto;
-    
-}
-
 .project-heading {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     font-size: 40px;
-    color: rgb(54, 77, 211);
+    color: cadetblue;
+    
 }
 .project-links {
     display: flex;
     justify-content: space-between;
     margin: 15px;
+    color: cadetblue;
+    cursor:grab;
 }
+
+.virtualpetlink {
+    color: cadetblue;
+}
+
+
 
 
 .contact-heading {

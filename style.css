@@ -10,14 +10,14 @@
 }
 
 .home {
-    background-image: url(../img/animated-gif.gif);
+    background-image: url(../img/background-img2.jpg);
     background-size: cover;
     opacity: 100%;
     
 }
 
 .container {
-    max-width: 1000px;
+    max-width: auto;
     margin: auto;
 }
 
@@ -53,7 +53,6 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    
     width: 100%;
 }
 
@@ -64,21 +63,16 @@
 .navbar li a:hover {
     background-color: rgba(202, 183, 11, 0.219);
 }
-.bio {
-    color: rgb(255, 0, 106);
-}
+
 .wedding-setup {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 3px;
-    border-radius: 200px;
 }
 
-.listed-skills {
-    font-size: 20px;
-    color: rgb(231, 18, 89);
+.wedding-picture {
+    border-radius: 200px;  
 }
+
 
 .github-icon {
     opacity: 35%;

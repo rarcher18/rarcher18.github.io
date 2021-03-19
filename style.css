@@ -12,6 +12,7 @@
 .home {
     background-image: url(../img/background-img2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     opacity: 100%;
     
 }
@@ -65,17 +66,16 @@
 }
 
 .wedding-picture-bg-border {
-    background-color: rgba(0, 0, 0, 0.658);
-    box-shadow: 0 0 5px 15px  rgba(0, 0, 0, 0.658);
-    
-    
+    position: relative;
+    margin-top: 30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.658) 90%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.658);
+    height: 30vw;
 }
 
 .wedding-picture {
     border-radius: 200px;
-    margin-left: 5em;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-left: 20px;
     display: flex;
     justify-content: left;
 }

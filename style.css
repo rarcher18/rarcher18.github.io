@@ -64,13 +64,20 @@
     background-color: rgba(202, 183, 11, 0.219);
 }
 
-.wedding-setup {
-    display: flex;
-    justify-content: center;
+.wedding-picture-bg-border {
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow: 0 0 5px 15px  rgba(0, 0, 0, 0.658);
+    
+    
 }
 
 .wedding-picture {
-    border-radius: 200px;  
+    border-radius: 200px;
+    margin-left: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: left;
 }
 
 

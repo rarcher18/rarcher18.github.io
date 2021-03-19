@@ -17,13 +17,9 @@ box-sizing: border-box;
 }
 
 .bio {
-    vertical-align: left;
-    /* margin: 10px; */
     font-size: 40px;
     color: rgb(255, 0, 106);
 }
-
-/* height: calc(100vh - 50px); */
 
 .listed-skills {
     display: flex;

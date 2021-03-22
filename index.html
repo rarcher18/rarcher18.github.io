@@ -10,22 +10,82 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?>">
 </head>
-<body class="home">
-        <header class= "header" id= "Ryan Archer's Portfolio">
-            <h1 class="header">Ryan Archer
-            </h1>
-        </header>
-        
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>    
-                    <li><a href="about-me.html">About Me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contacts.html">Contact</a></li>
-                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>  
-                </ul>
-            </nav>
-        
+<body id="home" class="home">
+    <header class= "top-header">
+        <h1 class="header">
+            <p>
+                What Should Go Here?
+            </p>
+        </h1>
+    </header>
+    <nav class="navbar">
+        <h2 class="header-name">Ryan Archer
+        </h2>
+        <ul>
+            <li><a href="#home">Home</a></li>    
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>  
+        </ul>
+    </nav>
+    <main>
+        <div class="scroll-container">
+            <!-- Video and Intro Section -->
+            <section id="home" class="section-home">
+            <video class="video-appalachian" src="pexels-appalachia-video.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="intro-name-wrapper">
+                <div class="intro">Hi there, I'm</div>
+                <div class="name">Ryan Archer</div>
+            </div>
+            </section>
+            <!-- About Me section with picture with short and bio/listed tech stack -->
+            <section id="about-me" class="section-about-me">
+                <div class="about-wrapper">
+                    <div class="wedding-picture-bg-border">
+                        <img class = "wedding-picture" src="img\Wedding-Setup.png" alt="Me just cheesin">
+                    </div>
+                    
+                    <div class="bio">I am a Full Stack Developer. In my spare time, I garden and love 
+                        to try new recipes. I also enjoy creating music 
+                        and have a B.A. in Music technology from Capital University. 
+                        That aspiration for learning all things technology has let me 
+                        to pursue a career in Web Development.
+                    </div>
+                    
+                    <div class="listed-skills"> Java • Spring • Hibernate • JPA • JavaScript • MVC 
+                        • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) 
+                        • Object-Oriented Programming (OOP) • AJAX • JSON 
+                        • Restful APIs • Responsive Design / Mobile 
+                        • Structured Query Language (SQL) • Relational Databases 
+                        • Source Control / Git
+                    </div>
+                </div>
+            </section>
+            <!-- Project Section -->
+            <section id="projects" class="section-projects">
+                <h2 class ="project-heading">My Projects</h2>
+                <div class="project-links">
+                    <article class="virtualpet"><a href="https://github.com/2020-Fall-Cohort/virtual-pets-tyrymina"><img class="virtual-pets-image" src="./img/virtual-pets.png" alt="Virtual Pet Screenshot" ></a></article>
+                    <article class="fizzbuzz"><a href="https://github.com/rarcher18/fizz-buzz"><img class="fizzbuzz-image" src="./img/fizzbuzz.jpg" alt="Fizz Buzz Screenshot"></a></article>
+                    <article class="donut-clicker"><a href="https://github.com/rarcher18/DonutClicker-"><img class="donut-clicker-image" src="img/donut-app-screenshot.jpg" alt="Donut Screenshot" ></a></article>
+                    <!-- <article class="guessinggame"><a href="https://github.com/2020-Fall-Cohort/guessing-game-rarcher18">Guessing Game</a></article> -->
+                </div>
+                <!-- Attempting to make a text when hovering over this link icon -->
+                    <div class="tooltip-wrapper">
+                        <article class="donut-website"><a href="https://ill-take-you-to-the-donut-shoppe.netlify.app/"><img class="link-icon-for-donut-clicker-app" src="./img/link-icon.png" alt="Link Icon for Donut App"></a></article>
+                    </div>
+            </section>
+            <!-- Contact Section -->
+            <section id="contacts" class="section-contacts">
+                <h3 class="contact-heading">Contact Me</h3>
+                <div class="contact-icons">
+                    <article class="github-icon"><a href="https://github.com/rarcher18"><img src="img\github-icon.png" alt="github icon"></a></article>
+                    <article class="gmail-icon"><a href="https://mail.google.com/"><img src="img\gmail-icon.png" alt="gmail icon"></a></article>
+                </div>
+            </section>
+        </div>
+    </main>
     
     <!-- <div class="bacon-image">
         <img class = "bacon" src="./img/BaconRyan.jpg.png" alt="Bacon Offering ">

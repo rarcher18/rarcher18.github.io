@@ -129,8 +129,6 @@
 }
 
 .wedding-picture {
-    /* max-width: 400px;
-    max-height: 400px; */
     border-radius: 200px;
     margin-left: 20px;
     display: flex;
@@ -182,28 +180,47 @@
 }
 
 .project-links img {
-    max-height: 400px;
-    max-width: 400px;
-    border-radius: 15px;
+    height: 400px;
+    width: 450px;
+    border-radius: 60px;
+    padding: 40px;
 }
 
-.project-links a:hover {
-    background-color:rgba(41, 37, 4, 0.89);
-    border-radius: 100px;
+.project-links img:hover {
+    border-radius: 50px;
+    border-bottom: 80px;
 }
 
-.donut-website .link-hover-text {
+.donut-website-icon img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -410px;
+    left: 300px;
+}
+
+.donut-website-icon img:hover {
+    background-color: #fff;
+    background-size: 20px;
+}
+
+.donut-website-icon .link-hover-text {
   visibility: hidden;
+  display: flex;
+  align-content: center;
   width: 120px;
-  background-color: black;
+  background-color: rgb(0, 6, 7);
   color: #fff;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 5px;
   padding: 5px 0;
 }
 
-.donut-website:hover .link-hover-text {
+.donut-website-icon:hover .link-hover-text {
     visibility: visible;
+    position: relative;
+    top: -560px;
+    left: 406px;
 }
 
 .contact-heading {

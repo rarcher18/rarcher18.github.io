@@ -77,14 +77,13 @@
     max-height: 550px;  
 } */
 
-
 .scroll-container {
     width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
     overflow-y: scroll;
     overflow-x: scroll;
-    
+
 }
 
 .video-appalachian {

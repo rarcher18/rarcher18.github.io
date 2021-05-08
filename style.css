@@ -248,10 +248,10 @@
 }
 
 .linked-in img {
+    /* display: grid;
+    grid-template-columns: 100px; */
     max-width: 230px;
     max-height: 230px;
-    display: grid;
-    grid-template-columns: 100px;
     opacity: 50%;
     border-radius: 30px;
 }

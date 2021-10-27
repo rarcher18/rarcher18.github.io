@@ -126,6 +126,7 @@ body{
 
 .section-about-me{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about-wrapper {
@@ -186,7 +187,7 @@ body{
 /* Project Section Styling  */
 
 .section-projects {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .project-heading {

@@ -124,6 +124,10 @@ body{
 
 /* About Me Section Styling  */
 
+.section-about-me{
+    padding-top: 50px;
+}
+
 .about-wrapper {
     position: relative;
     width: 100%;
@@ -180,6 +184,10 @@ body{
 }
 
 /* Project Section Styling  */
+
+.section-projects {
+    padding-top: 20px;
+}
 
 .project-heading {
     display: flex;
@@ -257,7 +265,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     border-radius: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
 }
 
 /* @media (max-width: 56.25em)  */
